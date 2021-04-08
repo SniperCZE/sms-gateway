@@ -1,6 +1,10 @@
 # sms-gateway
 Open source / open hardware multiline SMS gateway with HTTP api and RabbitMQ consumer, enclosed in nice 1U custom case.
 
+## Work in progress!
+
+This repo is under development. There is no guarantee that any part of it will not change in the future. Models, schemas and part lists are not final.
+
 ## Idea
 
 I would like to have SMS gateway for sending SMS, which:
