@@ -585,47 +585,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 4450 5800 4700
 $Comp
-L power:+5V #PWR0123
-U 1 1 60649758
-P 2250 6600
-F 0 "#PWR0123" H 2250 6450 50  0001 C CNN
-F 1 "+5V" H 2265 6773 50  0000 C CNN
-F 2 "" H 2250 6600 50  0001 C CNN
-F 3 "" H 2250 6600 50  0001 C CNN
-	1    2250 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 6064975E
-P 2250 7150
-F 0 "#PWR0124" H 2250 6900 50  0001 C CNN
-F 1 "GND" H 2255 6977 50  0000 C CNN
-F 2 "" H 2250 7150 50  0001 C CNN
-F 3 "" H 2250 7150 50  0001 C CNN
-	1    2250 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 60649764
-P 2600 6800
-F 0 "J12" H 2680 6792 50  0000 L CNN
-F 1 "Raspberry_MGMT" H 2680 6701 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2600 6800 50  0001 C CNN
-F 3 "~" H 2600 6800 50  0001 C CNN
-	1    2600 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 6800 2250 6800
-Wire Wire Line
-	2250 6800 2250 6600
-Wire Wire Line
-	2400 6900 2250 6900
-Wire Wire Line
-	2250 6900 2250 7150
-$Comp
 L power:+5V #PWR0125
 U 1 1 6064E699
 P 8450 1750
@@ -773,6 +732,8 @@ Wire Wire Line
 Connection ~ 7100 3150
 Wire Wire Line
 	7100 3150 7100 3500
+Wire Wire Line
+	7100 3800 7100 4000
 $Comp
 L Connector_Generic:Conn_01x01 J13
 U 1 1 606CE91B
@@ -785,5 +746,44 @@ F 3 "~" H 7100 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7100 3800 7100 4000
+	2250 6900 2250 7150
+Wire Wire Line
+	2400 6900 2250 6900
+Wire Wire Line
+	2250 6800 2250 6600
+Wire Wire Line
+	2400 6800 2250 6800
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 60649764
+P 2600 6800
+F 0 "J12" H 2680 6792 50  0000 L CNN
+F 1 "Raspberry_MGMT" H 2680 6701 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2600 6800 50  0001 C CNN
+F 3 "~" H 2600 6800 50  0001 C CNN
+	1    2600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 6064975E
+P 2250 7150
+F 0 "#PWR0124" H 2250 6900 50  0001 C CNN
+F 1 "GND" H 2255 6977 50  0000 C CNN
+F 2 "" H 2250 7150 50  0001 C CNN
+F 3 "" H 2250 7150 50  0001 C CNN
+	1    2250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0123
+U 1 1 60649758
+P 2250 6600
+F 0 "#PWR0123" H 2250 6450 50  0001 C CNN
+F 1 "+5V" H 2265 6773 50  0000 C CNN
+F 2 "" H 2250 6600 50  0001 C CNN
+F 3 "" H 2250 6600 50  0001 C CNN
+	1    2250 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
