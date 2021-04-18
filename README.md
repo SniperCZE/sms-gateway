@@ -29,6 +29,12 @@ I'am using one input of 230V AC, converted to 5V DC for every components. There 
 
 I will have to build custom 1U rack case for this project. You can find here models ad FreeCAD (https://www.freecadweb.org/) project.
 
+FreeCAD workbenches needed:
+- `KiCadStepUp` - integration of KiCAD
+- `Fasteners` - screws and nuts
+- `Sheet metal` - Support of metal sheet bending
+- `Exploded assembly` - Generation of assembly animation
+
 ## Software
 
 Every piece of software for my gateway is written in python with some bash scripts and systemd units.
