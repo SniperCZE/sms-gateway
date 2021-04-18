@@ -23,7 +23,7 @@ Whole idea is based on raspberry pi minicomputers with SIM800L GSM modules and s
 ### Power
 I'am using one input of 230V AC, converted to 5V DC for every components. There is custom designed PDU board inside of gateway interconnecting all components. Ethernet switch, thermometer and raspberries are powered directly with 5V, GSM module SIM800L must be powered with 4.3V, so I'm using basic diode 1N4007 to drop 5V to 4.3V.
 
-[SMS gateway power distribution](https://github.com/SniperCZE/sms-gateway/blob/master/power-block-diagram.jpg)
+![SMS gateway power distribution](https://github.com/SniperCZE/sms-gateway/blob/master/power-block-diagram.jpg)
 
 ## Mechanics
 
